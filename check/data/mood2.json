@@ -1,0 +1,42 @@
+{
+    "point1" : {
+        "time" : "9am",
+        "mood" : 3,
+        "reason" : "I have to get up for class."
+    },
+    "point2" : {
+        "time" : "11am",
+        "mood" : 4,
+        "reason" : "Ate some eggs and toast!"
+    },
+    "point3" : {
+        "time" : "1pm",
+        "mood" : 4,
+        "reason" : "I'm at my most productive!"
+    },
+    "point4" : {
+        "time" : "3pm",
+        "mood" : 4,
+        "reason" : "Getting work done and looking forward to lunch."
+    },
+    "point5" : {
+        "time" : "5pm",
+        "mood" : 3,
+        "reason" : "I wanna take a nap."
+    },
+    "point6" : {
+        "time" : "7pm",
+        "mood" : 2,
+        "reason" : "Tired and hungry. Ready to go home."
+    },
+    "point7" : {
+        "time" : "9pm",
+        "mood" : 1,
+        "reason" : "Had some dinner and getting ready to wind down."
+    },
+    "point8" : {
+        "time" : "12pm",
+        "mood" : 0,
+        "reason" : "Knocked out!"
+    }
+}
