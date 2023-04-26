@@ -17,12 +17,15 @@
 
     function showMoodInfo(point, data){
         const myImages = [
-            '<i class="far fa-angry"></i>',
-            '<i class="far fa-frown"></i>',
-            '<i class="far fa-meh"></i>',
-            '<i class="far fa-smile"></i>',
-            '<i class="far fa-grin-beam"></i>',
-            '<i class="far fa-grin-tears"></i>'
+            document.getElementById("neutral").src,
+            document.getElementById("")
+
+            // '< class="far fa-angry"></i>',
+            // '<i class="far fa-frown"></i>',
+            // '<i class="far fa-meh"></i>',
+            // '<i class="far fa-smile"></i>',
+            // '<i class="far fa-grin-beam"></i>',
+            // '<i class="far fa-grin-tears"></i>'
         ];
         document.querySelector('#reason').innerHTML = data[point].reason;
         document.querySelector('#moods').innerHTML = myImages[ data[point].mood ];
