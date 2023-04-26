@@ -18,7 +18,9 @@
     function showMoodInfo(point, data){
         const myImages = [
             document.getElementById("neutral").src,
-            document.getElementById("")
+            document.getElementById("content").src,
+            document.getElementById("dejected").src,
+            
 
             // '< class="far fa-angry"></i>',
             // '<i class="far fa-frown"></i>',
