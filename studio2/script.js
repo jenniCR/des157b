@@ -16,7 +16,7 @@
     }
 
     function showMoodInfo(point, data){
-        const fontAwesomeFaces = [
+        const myImages = [
             '<i class="far fa-angry"></i>',
             '<i class="far fa-frown"></i>',
             '<i class="far fa-meh"></i>',
@@ -25,7 +25,7 @@
             '<i class="far fa-grin-tears"></i>'
         ];
         document.querySelector('#reason').innerHTML = data[point].reason;
-        document.querySelector('#moods').innerHTML = fontAwesomeFaces[ data[point].mood ];
+        document.querySelector('#moods').innerHTML = myImages[ data[point].mood ];
         document.querySelector('#time').innerHTML = data[point].time;
     }
 
