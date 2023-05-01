@@ -17,17 +17,12 @@
 
     function showMoodInfo(point, data){
         const myImages = [
-            document.getElementById("neutral").src,
-            document.getElementById("content").src,
-            document.getElementById("dejected").src,
-            
-
-            // '< class="far fa-angry"></i>',
-            // '<i class="far fa-frown"></i>',
-            // '<i class="far fa-meh"></i>',
-            // '<i class="far fa-smile"></i>',
-            // '<i class="far fa-grin-beam"></i>',
-            // '<i class="far fa-grin-tears"></i>'
+            '<img src="images/neutral.png" alt="neutral expression" width="1000" height="auto">',
+            '<img src="images/content.png"  alt="content expression" width="1000" height="auto">',
+            '<img src="images/drowsy.png"  alt="drowsy expression" width="1000" height="auto">',
+            '<img src="images/sleep.png"  alt="sleepy expression" width="1000" height="auto">',
+            '<img src="images/hyped.png"  alt="hyped expression" width="1080" height="auto">',
+            '<img src="images/dejected.png" alt="neutral expression" width="1000" height="auto">'
         ];
         document.querySelector('#reason').innerHTML = data[point].reason;
         document.querySelector('#moods').innerHTML = myImages[ data[point].mood ];
@@ -43,9 +38,9 @@
         const windowSize = window.innerWidth;
         //The window needs to be divided into sections for each time in the JSON data
         const timeSection = windowSize / numDataPoints;
-        const yPos = event.clientY;
+        const xPos = event.clientX;
         // changeTime will be a number from 0-16
-        const changeTime = Math.floor(yPos / timeSection);
+        const changeTime = Math.floor(xPos / timeSection);
 
         // When you move the mouse into the next segment, change the interface.
         if (changeTime !== prevLoc) {
