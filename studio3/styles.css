@@ -1,6 +1,13 @@
 body {
+
     background-color: #999999;
     font-family:'Inter', sans-serif;
+}
+
+p { 
+    text-align: center;
+    color: #FDFF9B;
+    font-size: 2em;
 }
 
 a {
@@ -8,6 +15,13 @@ a {
     text-decoration: none;
     font-weight: 500;
     padding: 70px;
+}
+
+
+h3 {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 0%;
 }
 
 .fixed {
@@ -32,8 +46,35 @@ span {
 }
 
 .bw {
-    font-size: 8em;
+    font-size: 6em;
     text-align: center;
+    margin-bottom: 5%;
+}
+/* divs in section two. */
+.tew {
+    display: flex;
+    justify-content: space-around;
+}
+.boi {
+    border-style: solid;
+    text-align: center;
+    background-color: none;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    
+}
+.gurl {
+    border-style: solid;
+    text-align: center;
+    background-color: none;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
 }
 
 
@@ -43,3 +84,51 @@ span {
     padding-left: 40%;
     padding-top: 0;
 }
+
+.qaud {
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.bluhalf {
+    z-index: 1;
+    position: absolute;
+    margin: 0;
+    top: 40px;
+    left: 247px;
+}
+.redstar {
+    z-index: 2;
+    position: absolute;
+    margin: 0;
+    top: 160px;
+    left: 120px;
+}
+.liltrione {
+    z-index: 3;
+    position: absolute;
+    margin: 0;
+    top: 365px;
+    left: 100px;
+}
+.pink {
+    z-index: 4;
+    position: absolute;
+    margin: 0;
+    bottom: 270px;
+    left: 444px;
+}
+.pcircle {
+    z-index: 5;
+    position: absolute;
+    margin: 0;
+    top: 380px;
+    left: 330px;
+}
+
+
+
