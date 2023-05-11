@@ -115,20 +115,49 @@ span {
     top: 365px;
     left: 100px;
 }
-.pink {
+.liltritwo {
     z-index: 4;
+    position: absolute;
+    margin: 0;
+    top: 60px;
+    right: 550px;
+}
+.pink {
+    z-index: 5;
     position: absolute;
     margin: 0;
     bottom: 270px;
     left: 444px;
 }
 .pcircle {
-    z-index: 5;
+    z-index: 6;
     position: absolute;
     margin: 0;
     top: 380px;
     left: 330px;
 }
+.bcircle {
+    z-index: 7;
+    position: absolute;
+    margin: 0;
+    top: 350px;
+    right: 500px;
+}
+.redarc {
+    z-index: 8;
+    position: absolute;
+    margin: 0;
+    top: 300px;
+    left: 540px;
+}
+.blusquare {
+ z-index: 9;
+    position: absolute;
+    margin: 0;
+    top: 300px;
+    right: 200px;
+}
+
 
 
 
