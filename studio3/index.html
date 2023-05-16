@@ -2,17 +2,22 @@
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="script.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700;800;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    
     <title>Library Liberties</title>
 </head>
 <body>
 
-<div class="fixed">
+<div class="fixed" defer>
 <nav>
     <a href="#uno">home</a> 
     <a href="#dos">the binary</a> 
@@ -22,22 +27,23 @@
 </nav>
 </div>
 
-<section id="uno" class ="one">
-    <h1 class ="nb">What is<br><span>Non-Binary? |</span></h1>
-    <img class = "purple" src="images/purple.svg" alt="purple guy">
-</section>  
+<section id="uno" class="one">
+        <div id="typed-strings">
+        <h1 class="nb">What is<br>Non-Binary?</h1>
+        </div>
+        <span id="typed"></span>
+    <img class="purple" src="images/purple.svg" alt="purple guy">
+</section>
 
-<section id="dos" class="two"></section>
-<h2 class="bw"><span> Binary Lens |</span></h2>
 <section id="dos" class="two">
-        <div class="tew">
-  
-        <div class="boi">
+<h2 data-aos="fade-in"class="bw"><span> Binary Lens |</span></h2>
+    <div class="tew">
+        <div data-aos="fade-right"class="boi">
             <h3>Boi</h3>
             <img src="images/boi.svg">
         </div>
-
-        <div class ="gurl">
+    
+        <div data-aos="fade-left"class ="gurl">
             <h3>Gril</h3>
             <img src="images/gril.svg">
         </div>
@@ -49,21 +55,21 @@
 
 <section id="tres"class="three">
     <div class="qaud">
-        <img src="images/qaudrant.svg" alt="qaudrant">
-        <img class="bluhalf" src="images/bluhalf.svg" alt="blue half circle">
-        <img class="redstar" src="images/redstar.svg" alt="red star">
-        <img class="liltrione" src="images/liltriangle.svg" alt ="yellow 
+        <img data-aos="fade-in" src="images/qaudrant.svg" alt="qaudrant">
+        <img data-aos="fade-right"class="bluhalf" src="images/bluhalf.svg" alt="blue half circle">
+        <img data-aos="fade-right"class="redstar" src="images/redstar.svg" alt="red star">
+        <img data-aos="fade-right"class="liltrione" src="images/liltriangle.svg" alt ="yellow 
         triangle">
-        <img class="liltritwo" src="images/liltriangle.svg" alt ="yellow 
+        <img data-aos="fade-right"class="liltritwo" src="images/liltriangle.svg" alt ="yellow 
         triangle">
-        <img class="pink" src="images/pinksqaure.svg" alt="pink square">
-        <img class="pcircle" src="images/purcircle.svg" alt="purple circle">
-        <img class="redarc" src="images/redarc.svg" alt="red arc">
-        <img class="bcircle" src="images/blucircle.svg" alt="blue circle">
-        <img class="blusquare" src="images/bluesquare.svg" alt="blue square">
-        <img class="ppill" src="images/pinkpill.svg" alt="pink pill">
-        <img class="phalf" src="images/purpehalfcircle.svg" alt="purple half circle">
-        <img class="smalls" src="images/smallystar.svg" alt="small star">
+        <img data-aos="fade-right"class="pink" src="images/pinksqaure.svg" alt="pink square">
+        <img data-aos="fade-right"class="pcircle" src="images/purcircle.svg" alt="purple circle">
+        <img data-aos="fade-right"class="redarc" src="images/redarc.svg" alt="red arc">
+        <img data-aos="fade-left"class="bcircle" src="images/blucircle.svg" alt="blue circle">
+        <img data-aos="fade-left"class="blusquare" src="images/bluesquare.svg" alt="blue square">
+        <img data-aos="fade-left"class="ppill" src="images/pinkpill.svg" alt="pink pill">
+        <img data-aos="fade-left"class="phalf" src="images/purpehalfcircle.svg" alt="purple half circle">
+        <img data-aos="fade-left"class="smalls" src="images/smallystar.svg" alt="small star">
     </div>   
     <p>Something about a spectrum or a quadrant, <br>
         breaking boundaries and the possibilities.</p>
