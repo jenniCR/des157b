@@ -144,8 +144,47 @@ span {
     right: 150px;
 }
 
+/* kims work on paragraph/resource div. */
+
+.resour {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.resour a {
+    color: white;
+    font-size: 7em;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.resour a:hover {
+    color: #FDFF9B;
+}
+
+.resour h1 {
+    padding-top: 20px;
+    color: #FDFF9B;
+}
+
+.redsquig {
+    position: absolute;
+    width: 350px;
+    padding-bottom:0;
+    margin: 0;
+    bottom: 275px;
+}
+
+.alignright {
+    text-align: right;
+    margin-bottom: 100px;
+}
+
 .five{
     padding-top: .5%;
+    position: relative;
 }
 .links {
    margin: 0;
@@ -251,7 +290,7 @@ span {
     right: 30px;
 }
 .bigpill {
-    z-index: 13;
+    z-index: -13;
     margin-top: 0%;
     margin-left: 10%;
     width: 35%;
@@ -263,11 +302,19 @@ span {
     bottom: 420px;
     left: 250px;
 }
+.point:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
 .parc {
     z-index: 15;
     position: absolute;
     bottom: 320px;
     left: 470px;
+}
+.parc:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 .bigppill {
     z-index: 16;
@@ -275,3 +322,24 @@ span {
     top: 420px;
     left: 150px;
 }
+.bigppill:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.boy:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+.girl:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes shake {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(15px, 15px) rotate(15deg); }
+    50% { transform: translate(0, 0) rotate(0deg); }
+    75% { transform: translate(-15px, 15px) rotate(-15deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+ }  
+
